@@ -49,7 +49,7 @@ export default function App() {
         <div className="flex justify-center mt-6 md:mt-0 max-w-full">
           <img
             src="/image.png"
-            alt="photo"
+            alt="profil utilisateur"
             className=" w-[550px] h-auto object-contain"
           />
         </div>

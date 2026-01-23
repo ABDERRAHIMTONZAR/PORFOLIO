@@ -10,7 +10,7 @@ export default function Section1() {
         <div className="relative">
           <img 
             src="/AUBA.JPG" 
-            alt="Photo de profil" 
+            alt="profil utilisateur" 
             className="w-[300px] md:w-[300px] h-[300px] md:h-[400px] object-cover rounded-full shadow-xl border-4 border-red-500 hover:scale-105 transition-transform duration-300"
           />
         </div>
