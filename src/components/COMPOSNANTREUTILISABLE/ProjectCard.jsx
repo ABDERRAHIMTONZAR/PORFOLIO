@@ -39,7 +39,7 @@ function ProjectCard({ image, title, author, company, tech, detailsLink, demoLin
           </a>
           {liveDemo &&(
           <a href={demoLink} target="_blank" rel="noopener noreferrer"
-             className="px-4 py-2 border border-gray-400 hover:bg-gray-800 rounded-md text-sm font-semibold flex items-center gap-2">
+             className="px-4 py-2 border border-gray-400 hover:bg-gray-500 rounded-md text-sm font-semibold flex items-center gap-2">
             <FaExternalLinkAlt /> Live Demo
           </a>)}
           <br />

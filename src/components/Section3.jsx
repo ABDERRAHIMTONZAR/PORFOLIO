@@ -66,10 +66,22 @@ export default function Section3() {
       description: "Plateforme moderne permettant aux entreprises de collecter et analyser les retours clients.",
       liveDemo: false
     },
+{
+  image: "/sondage.png",
+  title: "Plateforme web de sondages en temps réel",
+  author: "Abderrahim Tonzar, Ali Belaouali",
+  company: "École Supérieure de Technologie",
+  tech: ["React", "Tailwind CSS", "Node.js", "Express", "MySQL", "Socket.IO"],
+  description: "Plateforme web moderne permettant de créer, partager et analyser des sondages en temps réel avec authentification sécurisée et statistiques dynamiques.",
+  detailsLink: "https://github.com/ABDERRAHIMTONZAR/Systeme_Vote/",
+  demoLink: "https://systeme-vote-frontend-61f9.vercel.app/",
+  liveDemo: true,
+  completed: true
+},
       {
       image: "/athan.jpg",
       title: "Athan - AthanPro ",
-      author: "Abderrahim Tonzar/ILYAS BAHMED",
+      author: "Abderrahim Tonzar",
       company: "Projet Personel",
       tech: ["ReactNative", "tailwind", "Node.js", "Express.js", "MongoDB"],
       // detailsLink: "https://github.com/AbderrahimTonzar",

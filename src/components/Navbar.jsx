@@ -10,7 +10,7 @@ export default function Navbar() {
     { id: 2, label: "À propos", to: "about" },
     { id: 3, label: "Compétences", to: "skills" },
     { id: 4, label: "Projets", to: "projects" },
-    { id: 5, label: "Contact", to: "contact" },
+    { id: 5, label: "Contact", to: "contactt" },
   ];
 
   return (

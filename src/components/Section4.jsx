@@ -13,16 +13,23 @@ const envoyer = async (e) => {
 
   if (formData.name && formData.email && formData.message) {
     try {
-      const res = await fetch(
-        "https://backend-production-36ef.up.railway.app/send-email",
-        {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(formData),
-        }
-      );
+      const res = await fetch("http://localhost:4000/send-mail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          to: "abdoutonzar@gmail.com", // 🔴 TON EMAIL
+          subject: `📩 Nouveau message de ${formData.name}`,
+          message: `
+            <strong>Nom :</strong> ${formData.name}<br/>
+            <strong>Email :</strong> ${formData.email}<br/><br/>
+            <strong>Message :</strong><br/>
+            ${formData.message}
+          `,
+        }),
+      });
 
       const data = await res.json();
+
       if (data.success) {
         alert("Message envoyé avec succès ✅");
         setFormData({ name: "", email: "", message: "" });
@@ -38,6 +45,7 @@ const envoyer = async (e) => {
     setTimeout(() => setError(""), 3000);
   }
 };
+
 
   return (
     <div id="contact" className="py-20 px-6 md:px-20 bg-white">

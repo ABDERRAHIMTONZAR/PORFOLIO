@@ -6,7 +6,6 @@ export default function Footer() {
     <footer className="bg-gradient-to-b from-neutral-900 to-black text-gray-300 pt-14 pb-8 mt-20 relative">
       <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-10 items-center text-center md:text-left">
         
-        {/* Logo / Nom */}
         <div className="flex flex-col gap-2 text-center md:text-left items-center md:items-start">
           <img src="/logo.png" alt="Logo du site" className="w-20 md:w-28" />
           <p className="text-gray-400 text-sm">
@@ -14,7 +13,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Navigation */}
         <ul className="flex flex-wrap items-center justify-center gap-6 font-medium">
           <li>
             <Link to="home" smooth duration={600} className="hover:text-red-400 text-lg cursor-pointer transition">
@@ -43,7 +41,6 @@ export default function Footer() {
           </li>
         </ul>
 
-        {/* Réseaux sociaux */}
         <div className="flex justify-center gap-5 text-2xl">
           <a href="https://web.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook"
              className="p-3 rounded-full bg-neutral-800 hover:bg-blue-600 text-white transition transform hover:scale-110 shadow-md">

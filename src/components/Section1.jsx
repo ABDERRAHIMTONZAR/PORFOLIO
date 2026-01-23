@@ -6,7 +6,6 @@ export default function Section1() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center m-10 gap-16 py-20" id="about"> 
       
-      {/* Photo */}
       <div className="w-full md:w-[40%] flex justify-center ">
         <div className="relative">
           <img 
@@ -17,7 +16,6 @@ export default function Section1() {
         </div>
       </div>
 
-      {/* Texte + Infos */}
       <div className="w-full md:w-[60%] space-y-6">
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800">
            Bonjour, je suis <span className="text-red-500">Abderrahim Tonzar</span>
@@ -32,7 +30,6 @@ export default function Section1() {
 
         <hr className="my-8 border-gray-300" />
 
-        {/* Infos perso */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Label nom={<><FaUser className="inline text-red-500 mr-2"/>Nom</>} valeur="Tonzar Abderrahim" />
           <Label nom={<><FaBriefcase className="inline text-red-500 mr-2"/> Métier</>} valeur="Étudiant" />
