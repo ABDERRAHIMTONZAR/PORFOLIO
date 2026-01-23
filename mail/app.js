@@ -128,7 +128,7 @@ app.post("/send-mail", async (req, res) => {
             ">
               © ${new Date().getFullYear()} • Portfolio Abderrahim Tonzar  
               <br/>
-              Message envoyé depuis le formulaire de contact
+              Message envoyé depuis  le formulaire de contact
             </td>
           </tr>
 
